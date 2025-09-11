@@ -31,17 +31,25 @@ $(function () {
 
 
     // TODO 2 - Create Platforms
-
+   createPlatform(400, 0, 200, 290);
+createPlatform(1350, 400, 500, 50, "red");
 
 
 
     // TODO 3 - Create Collectables
+    createCollectable("steve", 470, 50);
+  createCollectable("diamond", 600, 470, 0.5),
+
+
+
+
 
 
 
     
     // TODO 4 - Create Cannons
-
+createCannon(" bottom", 200, 100);
+   createCannon("left", 100, 200);
 
     
     
@@ -52,3 +60,8 @@ $(function () {
 
   registerSetup(setup);
 });
+ createPlatform(600, 500, 20, 290); createPlatform(1350, 500, 50, 50, "red");''
+
+ createCollectable("cow", 4350, 50);createCollectable("diamond", 400, 170, 0.5,)
+
+ createCollectable("gem", 200, 100, 0, 1, 100, 300, 2)
